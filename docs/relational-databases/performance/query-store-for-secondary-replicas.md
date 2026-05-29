@@ -4,7 +4,7 @@ description: Query Store can be configured to monitor and tuning workloads on se
 author: MikeRayMSFT
 ms.author: mikeray
 ms.reviewer: derekw, randolphwest, wiassaf
-ms.date: 04/23/2026
+ms.date: 05/29/2026
 ms.service: sql
 ms.subservice: performance
 ms.topic: concept-article
@@ -21,7 +21,7 @@ monikerRange: ">=sql-server-ver16 || =azuresqldb-current || =azuresqldb-mi-curre
 Query Store for readable secondary replicas enables Query Store insights for workloads that run on secondary replicas. When enabled, secondary replicas stream query execution information (such as runtime and wait statistics) to the primary replica, where the data is persisted in Query Store and made visible across all replicas.
 
 > [!NOTE]
-> Query store for readable secondary replicas is currently in preview in all SQL Database Engine platforms. 
+> In Azure SQL Database, Query Store for readable secondary replicas is in preview and is generally available in SQL Server 2025. 
 
 <a id="platform-support"></a>
 
